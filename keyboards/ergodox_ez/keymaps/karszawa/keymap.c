@@ -11,6 +11,7 @@
 
 #define TD_LANG 0
 #define _____ KC_NO
+#define XXXXX KC_TRNS
 
 #define KC_APSW (KC_LGUI | KC_TAB)
 #define KC_EMOJ (KC_LCTRL | KC_LSHIFT | KC_SPACE)
@@ -84,23 +85,23 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 // SYMBOLS
 [SYMB] = LAYOUT_ergodox(
        // left hand
-       KC_TRNS,KC_F1,  KC_F2,  KC_F3,  KC_F4,  KC_F5,  KC_TRNS,
-       KC_TRNS,KC_EXLM,KC_AT,  KC_LCBR,KC_RCBR,KC_PIPE,KC_TRNS,
-       KC_TRNS,KC_HASH,KC_DLR, KC_LPRN,KC_RPRN,KC_GRV,
-       KC_TRNS,KC_PERC,KC_CIRC,KC_LBRC,KC_RBRC,KC_TILD,KC_TRNS,
-       KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
-                                       KC_TRNS,KC_TRNS,
-                                               KC_TRNS,
-                               KC_TRNS,KC_TRNS,KC_TRNS,
+       XXXXX,   KC_F1,      KC_F2,      KC_F3,      KC_F4,      KC_F5,      XXXXX,
+       XXXXX,   KC_EXLM,    KC_AT,      KC_LCBR,    KC_RCBR,    KC_PIPE,    XXXXX,
+       XXXXX,   KC_HASH,    KC_DLR,     KC_LPRN,    KC_RPRN,    KC_GRV,
+       XXXXX,   KC_PERC,    KC_CIRC,    KC_LBRC,    KC_RBRC,    KC_TILD,    XXXXX,
+       XXXXX,   XXXXX,      XXXXX,      XXXXX,      XXXXX,
+                                                                XXXXX,      XXXXX,
+                                                                            XXXXX,
+                                                    XXXXX,      XXXXX,      XXXXX,
        // right hand
-       KC_TRNS, KC_F6,   KC_F7,  KC_F8,   KC_F9,   KC_F10,  KC_F11,
-       KC_TRNS, KC_UP,   KC_7,   KC_8,    KC_9,    KC_ASTR, KC_F12,
-                KC_DOWN, KC_4,   KC_5,    KC_6,    KC_PLUS, KC_TRNS,
-       KC_TRNS, KC_AMPR, KC_1,   KC_2,    KC_3,    KC_BSLS, KC_TRNS,
-                         KC_TRNS,KC_DOT,  KC_0,    KC_EQL,  KC_TRNS,
-       KC_TRNS, KC_TRNS,
-       KC_TRNS,
-       KC_TRNS, KC_TRNS, KC_TRNS
+       XXXXX,   KC_F6,      KC_F7,      KC_F8,      KC_F9,      KC_F10,     KC_F11,
+       XXXXX,   KC_UP,      KC_7,       KC_8,       KC_9,       KC_ASTR,    KC_F12,
+                KC_DOWN,    KC_4,       KC_5,       KC_6,       KC_PLUS,    XXXXX,
+       XXXXX,   KC_AMPR,    KC_1,       KC_2,       KC_3,       KC_BSLS,    XXXXX,
+       XXXXX,   KC_DOT,     KC_0,       KC_EQL,     XXXXX,
+       XXXXX,   XXXXX,
+       XXXXX,
+       XXXXX,   XXXXX,      XXXXX
 ),
 /* Keymap 2: Media and mouse keys
  *
@@ -125,23 +126,23 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  */
 // MEDIA AND MOUSE
 [MDIA] = LAYOUT_ergodox(
-       KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-       KC_TRNS, KC_TRNS, KC_PGDN, KC_UP,   KC_PGUP, KC_TRNS, KC_TRNS,
-       KC_TRNS, KC_TRNS, KC_LEFT, KC_DOWN, KC_RGHT, KC_TRNS,
-       KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-       KC_TRNS, KC_TRNS, KC_TRNS, KC_BTN1, KC_BTN2,
-                                           KC_TRNS, KC_TRNS,
-                                                    KC_TRNS,
-                                  KC_TRNS, KC_TRNS, KC_TRNS,
+       XXXXX,   XXXXX,      XXXXX,      XXXXX,      XXXXX,      XXXXX,      XXXXX,
+       XXXXX,   XXXXX,      KC_PGDN,    KC_UP,      KC_PGUP,    XXXXX,      XXXXX,
+       XXXXX,   XXXXX,      KC_LEFT,    KC_DOWN,    KC_RGHT,    XXXXX,
+       XXXXX,   XXXXX,      XXXXX,      XXXXX,      XXXXX,      XXXXX,      XXXXX,
+       XXXXX,   XXXXX,      XXXXX,      KC_BTN1, KC_BTN2,
+                                                                XXXXX,      XXXXX,
+                                                                            XXXXX,
+                                                    XXXXX,      XXXXX,      XXXXX,
     // right hand
-       KC_TRNS,  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-       KC_TRNS,  KC_TRNS, KC_TRNS, KC_PGUP, KC_TRNS, KC_TRNS, KC_TRNS,
-                 KC_TRNS, KC_TRNS, KC_PGDN, KC_TRNS, KC_TRNS, KC_MPLY,
-       KC_TRNS,  KC_TRNS, KC_TRNS, KC_MPRV, KC_MNXT, KC_TRNS, KC_TRNS,
-                          KC_VOLU, KC_VOLD, KC_MUTE, KC_TRNS, KC_TRNS,
-       KC_TRNS, KC_TRNS,
-       KC_TRNS,
-       KC_TRNS, KC_TRNS, KC_WBAK
+        XXXXX,  XXXXX,      XXXXX,      XXXXX,      XXXXX,      XXXXX,      XXXXX,
+        XXXXX,  XXXXX,      XXXXX,      KC_PGUP,    XXXXX,      XXXXX,      XXXXX,
+        XXXXX,  XXXXX,      KC_PGDN,    XXXXX,      XXXXX,      KC_MPLY,
+        XXXXX,  XXXXX,      XXXXX,      KC_MPRV,    KC_MNXT,    XXXXX,      XXXXX,
+                            KC_VOLU,    KC_VOLD,    KC_MUTE,    XXXXX,      XXXXX,
+        XXXXX,  XXXXX,
+        XXXXX,
+        XXXXX,  XXXXX,      KC_WBAK
 ),
 };
 
